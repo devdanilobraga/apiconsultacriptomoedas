@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consulta de Valores da Binance</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Consulta de Valores da Binance</h1>
+  
+  <label for="cryptocurrency">Selecione a criptomoeda:</label>
+  <select id="cryptocurrency">
+    <!-- Options serão preenchidos dinamicamente -->
+  </select>
+  
+  <button onclick="consultarValor()">Consultar</button>
+  
+  <div id="resultado" class="resultado-container">
+    <h2 class="resultado-title">Valor Atual</h2>
+    <div class="resultado-value"></div>
+    <div class="resultado-label"></div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
